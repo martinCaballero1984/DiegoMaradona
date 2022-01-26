@@ -1,0 +1,62 @@
+.card-img-top{
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 250px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.card{
+    box-shadow: 0 0 80px -10px black;
+}
+.logo{
+    height: 200px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  
+}
+h1{
+    text-align: center;
+    font-family: 'Graduate', sans-serif;
+    text-shadow: 3px 3px 3px;
+}
+h5{
+    font-family: 'graduate', sans-serif;
+}
+.centro{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.logrosList{
+    background-image: url(../IMG/copa2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    ul{
+    font-size: 1.5em;
+    text-align: center;
+    color: rgb(1, 65, 161);
+    text-shadow:black;
+    
+    }
+    h2{
+        font-size: 3em;
+        text-align: center;
+        color: white;
+        text-shadow: black;
+    }
+}
+
