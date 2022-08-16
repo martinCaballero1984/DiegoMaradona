@@ -37,17 +37,24 @@ h5 {
   -webkit-box-orient: vertical; }
 
 .logrosList {
-  background-image: url(../IMG/copa2.jpg);
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  )
+  ,url(../IMG/copa2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh; }
+  }
   .logrosList ul {
     font-size: 1.5em;
     text-align: center;
-    color: #0141a1;
-    text-shadow: black; }
+    color: #cbddf6;
+    text-shadow: black;
+    list-style-type: none; 
+  }
   .logrosList h2 {
     font-size: 3em;
     text-align: center;
@@ -64,3 +71,34 @@ h5 {
 .nav {
   font-size: 2.5rem;
   font-family: 'graduate', sans-serif; }
+
+.artLeyenda{
+  background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+  )
+  ,url(../IMG/logrosSeleccion.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.artLeyenda h2{
+   font-size: 3em;
+   color: rgba(105, 148, 228, 0.863);
+   align-items: center;
+
+   
+  
+  
+
+
+}
+.artLeyenda p{
+  color: azure;
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
